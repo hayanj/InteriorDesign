@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-family: verdana;
+  font-size: 100px;
+}
+.subtitle {
+  color: white;
+  text-align: center;
+  font-family: verdana;
+  font-size: 50px;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+header {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+}
+footer{
+  background-color: black;
+  padding: 1px;
+  text-align: center;
+}
+footer p{
+  color: white;
+  font-size: 14px;
+}
+.intro{
+  color: black;
+}
+.column {
+  font-family: verdana;
+  padding: 0px;
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+.vs {
+  color: white;
+  background-color: black;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+li {
+  font-family: verdana;
+  font-size: 20px;
+}
+nav ul{
+  list-style-type: none;
+  background: white;
+  font-family: verdana;
+  color: black;
+  position: sticky;
+  padding: 14px 16px;
+
+}
+nav ul li {
+  display: inline;
+}
+ul li a {
+  text-decoration: none;
+  padding: 14px 16px;
+  font-size: 17px;
+}
+li a:link{
+  color:black;
+}
+li a:visited{
+  color:black;
+}
+li a:hover{
+  color:grey;
+}
+li a:focus{
+  color:black;
+}
+li a:active{
+  color:black;
+}
+
+.resources{
+  font-family: verdana;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.active{
+  background-color: black;
+  color: white;
+}
+.row1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column1 {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column1 img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.inspo {
+  font-family: verdana;
+  text-align: center;
+}
+
+.inspo img {
+  width: 50%;
+}
